@@ -61,12 +61,12 @@ A **RESTful API** for managing supermarket products and categories. This API is 
   - Method: POST
   - URL: https://localhost:44360/api/products
 Body:
-``json{
+```json{
   "name": "Milk",
   "quantityInPackage": 15,
   "unitOfMeasurement": 5,
   "categoryId": 1
-}``
+}```
 -**Retrieving All Categories:**
   - Method: GET
   - URL: https://localhost:44360/api/categories
@@ -74,12 +74,12 @@ Body:
   - Method: PUT
   - URL: https://localhost:44360/api/products/1
 Body:
-``json
+```json
 Copy code
 {
   "name": "Low-fat Milk",
   "categoryId": 1
-}``
+}```
 -**Deleting a Category:**
   - Method: DELETE
   - URL: https://localhost:44360/api/categories/1
