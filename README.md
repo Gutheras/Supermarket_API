@@ -53,10 +53,10 @@ A **RESTful API** for managing supermarket products and categories. This API is 
   - Method: POST
   - URL: https://localhost:44360/api/categories
   - Body:
-``json
+```json
 {
   "name": "Dairy"
-}``
+}```
 -**Adding a Product:**
   - Method: POST
   - URL: https://localhost:44360/api/products
